@@ -20,8 +20,12 @@ module API
         {"a" => "s"}
 
       end
-			
-		end
 
-	end
+      get :some2 do
+        {a: "r"}
+      end
+
+    end
+
+ end
 end
