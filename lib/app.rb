@@ -25,6 +25,11 @@ module API
         {a: "r"}
       end
 
+      
+      get :some2 do
+        {a: "r"}
+      end
+
     end
 
  end
