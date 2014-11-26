@@ -23,7 +23,7 @@ module API
       end
 
       get :some2 do
-        {a: "r"}
+        {a: "AAAA"}
       end
 
 
