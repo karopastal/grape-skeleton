@@ -1,6 +1,7 @@
-
 module API
 	class App < Grape::API
+
+    format :json
 
     resource :files do 
 			post do #/files
@@ -25,10 +26,6 @@ module API
         {a: "r"}
       end
 
-      
-      get :some2 do
-        {a: "r"}
-      end
 
     end
 
